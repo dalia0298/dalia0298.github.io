@@ -1,0 +1,74 @@
+button {
+    background-color: blue; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno (ajústalo según tus preferencias) */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos adicionales cuando se pasa el mouse por encima */
+button:hover {
+    background-color: black; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.contenedor {
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 1px;
+}
+
+.item1 {
+    background-color: rgb(56, 98, 237);
+
+
+}
+
+.item2 {
+    background-color:white;
+
+    
+}
+
+.item3 {
+    background-color: white
+    /* Estilos para el tercer elemento */
+}
+.item4 {
+
+    background-color: black;
+
+}
+
+.contenedor .item1 ul h2 {
+
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+
+    
+
+}
+footer {
+    align-self: flex-end;
+    width: 100%;
+    height: 200px;
+    text-align: left;
+}
+
+.item4 footer ul li a{
+    text-decoration: none;
+
+
+}
+ul {
+    list-style-type: none;
+}
+
+
+.item4 footer ul li a h5 {
+
+    color: white;
+}
